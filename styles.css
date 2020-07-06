@@ -1,0 +1,433 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/******************** MOBILE - HEADER STYLES ********************/
+
+h1 {
+  font-size: 2.75rem;
+  font-family: 'Chicle', cursive;
+  font-weight: bold;
+  color: #FFAA64;
+  margin-bottom: 20%;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #FFAA64;
+  margin-bottom: 10%;
+  font-family: 'Chicle', cursive;
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin-bottom: 10%;
+  color: #000000;
+}
+
+header {
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: baseline; */
+  padding: 8%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+nav i {
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 100px;
+}
+
+
+
+.header-link {
+  border: 1px solid #FFAA64;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.header-link:visited, .header-link:hover {
+  text-decoration: none;
+}
+
+.menu-links {
+  display: none;
+}
+
+.menu-link {
+  background-color: #FFAA64;
+  border-color: #FFAA64;
+  color: white;
+}
+
+.menu-link:hover, .menu-link:visited {
+  color: white;
+}
+
+.learn-link {
+  background-color: white;
+  color: #FFAA64;
+}
+
+.learn-link:hover, .learn-link:visited {
+  color: #FFAA64;
+}
+
+/******************** MOBILE - ABOUT STYLES ********************/
+
+.about-section {
+  padding: 15%;
+  text-align: center;
+}
+
+.about-content {
+  margin-bottom: 15%;
+}
+
+.about-img {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.more-link {
+  border: 1px solid #FFAA64;
+  color: #FFAA64;
+  background-color: #FFF3DB;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.more-link:visited, .more-link:hover {
+  text-decoration: none;
+}
+
+/******************** MOBILE - MENU STYLES ********************/
+
+.menu-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.menu-imgs::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  z-index: 5;
+  transition: 0.5s;
+}
+
+.menu-imgs:hover::after {
+  background-color: rgba(255, 255, 255, 0.37);
+}
+
+.menu-imgs img {
+  width: 30%;
+}
+
+.menu-section-link {
+  position: absolute;
+  background-color: #FF8264;
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffffff;
+  top: 50%;
+  margin-top: -30px;
+  left: 50%;
+  margin-left: -100px;
+  z-index: 10;
+  font-family: 'Chicle', cursive;
+  font-size: 2rem;
+}
+
+
+.menu-section-link a, .menu-section-link a:visited, .menu-section-link a:hover {
+  color: #ffffff;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+
+/******************** MOBILE - AWARD STYLES ********************/
+
+.award-section {
+  padding: 15%;
+  text-align: center;
+}
+
+.award-imgs {
+  display: flex;
+  flex-wrap: wrap;
+   
+}
+
+.award-img {
+  width: 40%;
+  margin: 10px;
+  
+}
+
+/******************** MOBILE - REVIEWS STYLES ********************/
+
+.reviews-section {
+  padding: 15%;
+  text-align: center;
+  background-color: #FFF3DB;
+}
+
+.reviews-section h2 {
+  color: #FF8264;
+}
+
+
+
+/******************** MOBILE - CONTACT STYLES ********************/
+
+.contact-section {
+  padding: 10%;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-top: 8%;
+}
+
+.contact-icon {
+  color: #FFAA64;
+  font-size: 1.25rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 0;
+}
+
+.other-locations-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.apply-link {
+  border: 1px solid #FFAA64;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #FFAA64;
+  color: #ffffff;
+}
+
+.apply-link:visited, .apply-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/******************** MOBILE - FOOTER STYLES ********************/
+
+
+footer {
+  padding: 10%;
+  text-align: center;
+  background-color: #FFF3DB;
+}
+
+footer p {
+  margin-bottom: 0;
+  color: #a9a9a9;
+}
+
+
+@media (min-width: 350px) {
+  .other-locations-content {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  /******************** TABLET - HEADER STYLES ********************/
+
+  nav {
+    position: static;
+    padding: 3% 10%;
+  }
+
+  .menu-icon {
+    color: #000000;
+  }
+
+  #home-carousel-content {
+    height: 400px;
+    overflow: hidden;
+  }
+
+  #tablet-carousel {
+    margin: 0 10% 5%;
+  }
+
+  .about-section {
+    padding: 5% 30% 10%;
+  }
+
+  .about-content {
+    margin-bottom: 10%;
+  }
+
+  .about-img {
+    width: 65%;
+  }
+
+  .menu-imgs {
+    width: 80%;
+    margin: auto;
+  }
+
+  .menu-imgs img {
+    width: 25%;
+  }
+
+  .menu-section-link {
+    width: 230px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -115px;
+  }
+
+  .award-section {
+    padding: 10% 15%;
+  }
+
+  .award-imgs {
+    justify-content: center;
+  }
+
+  .award-img {
+    width: 16%;
+  }
+
+  .reviews-section {
+    padding: 10% 15%;
+  }
+
+  .contact-section {
+    padding: 10% 20%;
+  }
+
+  .other-locations-content {
+    justify-content: center;
+  }
+
+  .other-locations-content div {
+    margin: 0px 25px;
+  }
+
+  h2 {
+    margin-bottom: 5%;
+  }
+
+  footer {
+    padding: 5%
+  }
+}
+
+
+@media (min-width: 1024px) {
+
+  nav {
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10%;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-section {
+    padding-top: 3%;
+    padding-bottom: 8%;
+  }
+
+  .about-img {
+    width: 55%;
+  }
+
+  .contact-section {
+    padding: 4% 25% 6%;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .menu-links {
+    display: block;
+  }
+
+  .menu-links ul {
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu-links li {
+    margin: 0 0 0 40px;
+    font-family: 'Chicle', cursive;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+  }
+
+  .menu-imgs {
+    width: 70%;
+  }
+
+  .award-img {
+    width: 12%;
+  }
+
+  .reviews-section {
+    padding: 6% 15%;
+  }
+
+  .reviews-section p {
+    width: 60%;
+    margin: auto;
+  }
+
+}
+
+
+
