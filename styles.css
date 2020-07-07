@@ -303,7 +303,7 @@ ul {
   text-align: center;
 }
 
-.other-locations-content a, .other-locations-content a:active, .other-locations-content a:hover, .other-locations-content a:visited, {
+.other-locations-content a, .other-locations-content a:active, .other-locations-content a:hover, .other-locations-content a:visited {
   color: #FFAA64;
 }
 
