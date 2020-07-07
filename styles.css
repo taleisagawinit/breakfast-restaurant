@@ -248,6 +248,7 @@ p {
 
 .award-img {
   width: 40%;
+  height: 40%;
   margin: 10px;
   
 }
@@ -302,7 +303,7 @@ ul {
   text-align: center;
 }
 
-.other-locations-content a, .other-locations-content a:active, .other-locations-content a:hover, .other-locations-content a:visited, a {
+.other-locations-content a, .other-locations-content a:active, .other-locations-content a:hover, .other-locations-content a:visited, {
   color: #FFAA64;
 }
 
@@ -329,10 +330,11 @@ footer {
   background-color: #FFF3DB;
 }
 
-footer p {
+footer p, footer a {
   margin-bottom: 0;
   color: #a9a9a9;
 }
+
 
 /* 
 @media (min-width: 350px) {
@@ -405,6 +407,7 @@ footer p {
 
   .award-img {
     width: 16%;
+    height: 16%;
   }
 
   .reviews-section {
@@ -523,6 +526,7 @@ footer p {
 
   .award-img {
     width: 12%;
+    height: 12%;
   }
 
   .reviews-section {
