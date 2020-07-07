@@ -27,16 +27,18 @@
     <div id="home-carousel">
       <nav>
         <img class="logo" src="./images/cracked-egg-logo.png" alt="cracked egg logo">
-        <div class="menu-icon">
+        <button class="menu-icon">
           <i class="fas fa-bars"></i>
-        </div>
+        </button>
         <div class="menu-links">
+          <button class="close-icon">
+            <i class="fas fa-times"></i>
+          </button>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Jobs</li>
-            <li>Contact</li>
-            <li>Menu</li>
+            <li><button class="menu-link-button"><a href="#about">About</a></button></li>
+            <li><button class="menu-link-button"><a href="#jobs">Jobs</a></button></li>
+            <li><button class="menu-link-button"><a href="#contact">Contact</a></button></li>
+            <li><button class="menu-link-button"><a class="highlight-link" href="#menu">Menu</a></button></li>
           </ul>
         </div>
       </nav>
@@ -78,11 +80,14 @@
   <section class="about-section" id="about">
     <h1>Welcome to the<br>Cracked Egg</h1>
     <img class="about-img" src="./images/about.png" alt="about image">
-    <p class="about-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium obcaecati placeat
-      ipsam eius odio a
-      veritatis voluptatem porro, quam possimus excepturi sapiente laboriosam quas quis rerum esse amet quos tempore.
+    <p class="about-content">We are a locally owned and operated breakfast and lunch restaurant with 5 locations in the
+      Las Vegas area. Established in 2002 we are already a locals’ favorite. Come on in and try our Specialty Breakfasts
+      ranging form Scrambles, Skillets, Omelettes and even Eggs Benedict. Our lunch menu is a great mix of home made
+      Soups, Salads , Sandwiches and Burgers. If you like sweets, then this is the place for you. We are known for our
+      homemade Coffee Cake as well as many
+      varieties of Pancakes and French Toast.
     </p>
-    <a class="more-link" href="">More about us</a>
+    <a class="more-link" href="#about">More about us</a>
   </section>
   <section class="menu-section" id="menu">
     <div class="menu-imgs">
@@ -120,19 +125,21 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda perspiciatis voluptatem voluptatum
-            obcaecati nulla deserunt illum consectetur!</p>
-          <p>- Joe Blake</p>
+          <p>Great service and filling breakfast! Delicious options for Pancakes, French Toast, and egg creations.
+            Listen to the reviews about the Coffee Cake - so yummy!<br>⭐️⭐️⭐️⭐️⭐️</p>
+          <p>- Devin Jones</p>
         </div>
         <div class="carousel-item">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda perspiciatis voluptatem voluptatum
-            obcaecati nulla deserunt illum consectetur!</p>
-          <p>- Juliana Crane</p>
+          <p>This place is open for dine in!! Had Andi as our server. She gave amazing service, very attentive. The food
+            was amazing, don't skip out on the coffee cake!! Served warm and fresh. I had the Mexican skillet, u was
+            blown away by how delicious it was and the portion was huge!!<br>⭐️⭐️⭐️⭐️⭐️</p>
+          <p>- Autumn White</p>
         </div>
         <div class="carousel-item">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda perspiciatis voluptatem voluptatum
-            obcaecati nulla deserunt illum consectetur!</p>
-          <p>- Trudy Walker</p>
+          <p>Everything tasted like real food: real cheese, real eggs, real spinach. And you gotta love when you are
+            served coffee in a cup with thick sides. I don't know why, but that's one of my favorite parts.
+            I came here as a party of one. The host was gracious and took me to a table seated for 4<br>⭐️⭐️⭐️⭐️⭐️</p>
+          <p>- Theresa Aslin</p>
         </div>
       </div>
     </div>
@@ -145,13 +152,13 @@
         <!-- hours and info go here -->
         <ul class="contact-info">
           <li>
-            <p>Phone:<br>123-456-7890</p>
+            <p>Phone:<br>(702) 395-7981</p>
           </li>
           <li>
-            <p>Email:<br>crackedegg@email.com</p>
+            <p>Email:<br>goteggs@hotmail.com</p>
           </li>
           <li>
-            <p>Address:<br>123 Street Name St<br>Las Vegas, NV<br>View on map</p>
+            <p>Address:<br>7660 W Cheyenne Ave #125<br>Las Vegas, NV 89129<br>View on map</p>
           </li>
         </ul>
         <!-- <iframe
@@ -161,10 +168,10 @@
         <h2>Hours of Operation</h2>
         <ul>
           <li>
-            <p>Monday - Friday<br>7:00 AM - 7:00 PM</p>
+            <p>Monday - Friday<br>7:00am – 2:00pm</p>
           </li>
           <li>
-            <p>Saturday & Sunday<br>7:00 AM - 7:00 PM</p>
+            <p>Saturday & Sunday<br>7:00am – 2:00pm</p>
           </li>
         </ul>
 
@@ -174,23 +181,27 @@
       <h2>Other Locations</h2>
       <div class="other-locations-content">
         <div>
-          <p>123 Street Name St<br>Las Vegas, NV<br>View on map</p>
+          <p>(702) 220-6449<br>6435 S. Rainbow, #100<br>Las Vegas, NV 89119<br><a href="#" target="_blank">View on
+              map</a></p>
         </div>
         <div>
-          <p>123 Street Name St<br>Las Vegas, NV<br>View on map</p>
+          <p>(702) 645-9438<br>5570 Painted Mirage #140<br>Las Vegas, NV 89149<br><a href="#" target="_blank">View on
+              map</a></p>
         </div>
         <div>
-          <p>123 Street Name St<br>Las Vegas, NV<br>View on map</p>
+          <p>(702) 868-5505<br>1000 N Green Valley Pky #480<br>Las Vegas, NV 89074<br><a href="#" target="_blank">View
+              on map</a></p>
         </div>
         <div>
-          <p>123 Street Name St<br>Las Vegas, NV<br>View on map</p>
+          <p>(702) 476-4204<br>9921 W. Charleston Blvd. #6<br>Las Vegas, NV 89117<br><a href="" target="_blank">View on
+              map</a></p>
         </div>
         <!-- other locations info go here -->
       </div>
     </div>
-    <div>
+    <div id="jobs">
       <h2>Want to work for us?</h2>
-      <a class="apply-link" href="#">Apply</a>
+      <a class="apply-link" href="#jobs">Apply</a>
     </div>
   </section>
   <footer>
@@ -206,6 +217,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="./index.js"></script>
 </body>
 
 </html>
