@@ -55,6 +55,7 @@ p {
 
 .logo {
   width: 100px;
+  height: 75px;
 }
 
 
@@ -146,25 +147,6 @@ p {
   border-color: #d66346;
 }
 
-/* .menu-link {
-  background-color: #FFAA64;
-  border-color: #FFAA64;
-  color: white;
-}
-
-.menu-link:hover, .menu-link:visited {
-  color: white;
-}
-
-.learn-link {
-  background-color: white;
-  color: #FFAA64;
-}
-
-.learn-link:hover, .learn-link:visited {
-  color: #FFAA64;
-} */
-
 /******************** MOBILE - ABOUT STYLES ********************/
 
 .about-section {
@@ -220,6 +202,7 @@ p {
 
 .menu-imgs img {
   width: 30%;
+  height: 25%;
 }
 
 .menu-section-link {
@@ -319,7 +302,7 @@ ul {
   text-align: center;
 }
 
-.other-locations-content a, .other-locations-content a:active, .other-locations-content a:hover, .other-locations-content a:visited {
+.other-locations-content a, .other-locations-content a:active, .other-locations-content a:hover, .other-locations-content a:visited, a {
   color: #FFAA64;
 }
 
@@ -398,6 +381,7 @@ footer p {
 
   .menu-imgs img {
     width: 25%;
+    height: 30%;
   }
 
   .menu-links {
@@ -468,6 +452,7 @@ footer p {
 
   .logo {
     width: 125px;
+    height: 90px;
   }
 
   .about-section {
